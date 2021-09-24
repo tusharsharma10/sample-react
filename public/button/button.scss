@@ -1,0 +1,20 @@
+ .btn-round {
+     padding: 9px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 20px;
+     min-width: 6.75rem;
+     background-color: #fff;
+     border: 1px solid #5670fb;
+     cursor: pointer;
+     height: 80%;
+     margin-right: 10px;
+     color: #5670fb;
+     font-weight: bold;
+     &:hover {
+         background-color: #5670fb;
+         border: 1px solid #5670fb;
+         color: #fff
+     }
+ }

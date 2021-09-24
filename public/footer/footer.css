@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+.footer-wrap {
+  background-color: #f6f7ff;
+  padding-top: 2rem;
+}
+
+.footer-wrap .footer-links {
+  max-width: 67rem;
+  margin: 0 auto;
+}
+
+.footer-wrap .footer-links .info {
+  color: #1e223c;
+}
+
+.footer-wrap .footer-links .info img {
+  width: 27.2px;
+  height: 31px;
+  vertical-align: middle;
+}
+
+.footer-wrap .footer-links .info .logo-text {
+  font-size: 1.325rem;
+  font-weight: 700;
+  letter-spacing: .36px;
+  color: #040a1e;
+  margin-left: 9px;
+  vertical-align: middle;
+}
+
+.footer-wrap .footer-links .info .title {
+  font-size: 1rem;
+  line-height: 1.23;
+  font-weight: 500;
+}
+
+.footer-wrap .footer-links .info .col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 72%;
+}
+
+.footer-wrap .footer-links .info .col .item {
+  min-width: 22%;
+}
+
+.footer-wrap .footer-links .info .col .item span {
+  font-size: 1.125rem;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.footer-wrap .footer-links .info .col .item p {
+  font-size: .875rem;
+  line-height: 1.07;
+  font-weight: 500;
+  margin: 0;
+}
+
+.footer-wrap .footer-links .search-new {
+  display: block;
+  margin-top: 2.5rem;
+  margin-bottom: 1.25rem;
+  z-index: 1 !important;
+  border: .0625rem solid #e4e6ee;
+  border-radius: 1.5rem;
+  max-width: 46.5625rem;
+}
+
+.footer-wrap .footer-links .quick-links-wrap {
+  display: inline-block;
+  min-width: 17%;
+  padding: 2.5rem 20px 2rem 0;
+  vertical-align: top;
+}
+
+.footer-wrap .footer-links .quick-links-wrap p {
+  color: #1e223c;
+  margin: 0 0 .9rem;
+  font-weight: 700;
+  font-size: 1.125rem;
+}
+
+.footer-wrap .footer-links .quick-links-wrap .quick-links-container {
+  text-decoration: none;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-wrap .footer-links .quick-links-wrap .quick-links-container .quick-link a {
+  list-style: none;
+  line-height: 2.2;
+  font-size: 1rem;
+  color: #1e223c;
+  padding: .25rem 0;
+  text-decoration: none;
+}
+
+.footer-wrap .footer-links .quick-links-wrap .quick-links-container .quick-link a:hover {
+  color: #7086fc;
+}
+/*# sourceMappingURL=footer.css.map */

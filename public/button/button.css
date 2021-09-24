@@ -1,0 +1,28 @@
+.btn-round {
+  padding: 9px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 20px;
+  min-width: 6.75rem;
+  background-color: #fff;
+  border: 1px solid #5670fb;
+  cursor: pointer;
+  height: 80%;
+  margin-right: 10px;
+  color: #5670fb;
+  font-weight: bold;
+}
+
+.btn-round:hover {
+  background-color: #5670fb;
+  border: 1px solid #5670fb;
+  color: #fff;
+}
+/*# sourceMappingURL=button.css.map */

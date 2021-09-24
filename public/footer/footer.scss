@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+.footer-wrap {
+    background-color: #f6f7ff;
+    padding-top: 2rem;
+    .footer-links {
+        max-width: 67rem;
+        margin: 0 auto;
+        .info {
+            color: #1e223c;
+            img {
+                width: 27.2px;
+                height: 31px;
+                vertical-align: middle;
+            }
+            .logo-text {
+                font-size: 1.325rem;
+                font-weight: 700;
+                letter-spacing: .36px;
+                color: #040a1e;
+                margin-left: 9px;
+                vertical-align: middle;
+            }
+            .title {
+                font-size: 1rem;
+                line-height: 1.23;
+                font-weight: 500;
+            }
+            .col {
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                align-content: flex-start;
+                flex-wrap: wrap;
+                width: 72%;
+                .item {
+                    min-width: 22%;
+                    span {
+                        font-size: 1.125rem;
+                        line-height: 1.2;
+                        font-weight: 700;
+                    }
+                    p {
+                        font-size: .875rem;
+                        line-height: 1.07;
+                        font-weight: 500;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+        .search-new {
+            display: block;
+            margin-top: 2.5rem;
+            margin-bottom: 1.25rem;
+            z-index: 1!important;
+            border: .0625rem solid #e4e6ee;
+            border-radius: 1.5rem;
+            max-width: 46.5625rem;
+        }
+        .quick-links-wrap {
+            display: inline-block;
+            min-width: 17%;
+            padding: 2.5rem 20px 2rem 0;
+            vertical-align: top;
+            p {
+                color: #1e223c;
+                margin: 0 0 .9rem;
+                font-weight: 700;
+                font-size: 1.125rem;
+            }
+            .quick-links-container {
+                text-decoration: none;
+                text-align: left;
+                margin: 0;
+                padding: 0;
+                .quick-link {
+                    a {
+                        list-style: none;
+                        line-height: 2.2;
+                        font-size: 1rem;
+                        color: #1e223c;
+                        padding: .25rem 0;
+                        text-decoration: none;
+                        &:hover {
+                            color: #7086fc;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

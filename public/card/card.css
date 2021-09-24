@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1.125rem 2rem;
+  margin: 6.5rem auto 1.25rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0 2px 6px 0 #8d9c9c;
+          box-shadow: 0 2px 6px 0 #8d9c9c;
+  border-radius: 3px;
+}
+
+.card .user-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+}
+
+.card .user-info img {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+
+.card .user-info .info {
+  height: 100%;
+  margin-left: 20px;
+  justify-self: flex-start;
+}
+
+.card .user-info .info h2 {
+  display: block;
+  -webkit-margin-before: 0.67em;
+          margin-block-start: 0.67em;
+  -webkit-margin-after: 0.67em;
+          margin-block-end: 0.67em;
+  -webkit-margin-start: 0px;
+          margin-inline-start: 0px;
+  -webkit-margin-end: 0px;
+          margin-inline-end: 0px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: .75;
+  color: #1e223c;
+  margin: 0.7rem 0 0 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.card .user-info .info .link-text {
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+  font-size: .875rem;
+  font-weight: 700;
+  line-height: 1.14;
+  color: #5670fb;
+  margin: 0;
+  padding: 0;
+  display: block;
+  -webkit-margin-before: 1em;
+          margin-block-start: 1em;
+  -webkit-margin-after: 1em;
+          margin-block-end: 1em;
+  -webkit-margin-start: 0px;
+          margin-inline-start: 0px;
+  -webkit-margin-end: 0px;
+          margin-inline-end: 0px;
+}
+
+.card .stats-count-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card .stats-count-wrapper .divider {
+  margin-left: 10px;
+}
+
+.card .stats-count-wrapper .stats-left .heading {
+  font-size: .625rem;
+  line-height: 1.6;
+  color: #97a0be;
+  margin-bottom: .0rem;
+}
+
+.card .stats-count-wrapper .stats-left .stats-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card .stats-count-wrapper .stats-left .stats-wrapper .stat-col {
+  padding-right: 1rem;
+}
+
+.card .stats-count-wrapper .stats-left .stats-wrapper .stat-col .count {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #000;
+}
+
+.card .stats-count-wrapper .stats-left .stats-wrapper .stat-col .desc {
+  font-size: .75rem;
+  line-height: 1.5;
+  white-space: nowrap;
+  color: #000;
+}
+
+.card .stats-count-wrapper .stats-right {
+  padding-left: 1.25rem;
+}
+
+.card .stats-count-wrapper .stats-right .heading {
+  font-size: .625rem;
+  line-height: 1.6;
+  color: #97a0be;
+  margin-bottom: .0rem;
+}
+
+.card .stats-count-wrapper .stats-right .stats-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card .stats-count-wrapper .stats-right .stats-wrapper .stat-col {
+  padding-right: 1rem;
+}
+
+.card .stats-count-wrapper .stats-right .stats-wrapper .stat-col .count {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #000;
+}
+
+.card .stats-count-wrapper .stats-right .stats-wrapper .stat-col .desc {
+  font-size: .75rem;
+  line-height: 1.5;
+  white-space: nowrap;
+  color: #000;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  display: block;
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
+  -webkit-margin-start: 0px;
+          margin-inline-start: 0px;
+  -webkit-margin-end: 0px;
+          margin-inline-end: 0px;
+}
+/*# sourceMappingURL=card.css.map */

@@ -1,0 +1,44 @@
+.container {
+    margin: 50px;
+    .user-menu {
+        width: 10.9375rem;
+        left: 4px;
+        top: 100%;
+        z-index: 1000;
+        box-shadow: 12px #1e223c;
+        border: .0625rem solid #e9e8f9;
+        background: #fff;
+        padding: .875rem 0;
+        border-radius: .1875rem;
+        a {
+            display: block;
+            padding: .625rem 1.5rem;
+            font-family: proxima-nova, Arial, sans-serif;
+            text-decoration: none;
+            font-weight: 500;
+            line-height: 1.43;
+            letter-spacing: normal;
+            color: #1e223c;
+            cursor: pointer;
+            margin-left: 0;
+            font-size: 13px;
+            font-weight: bolder;
+            &:hover {
+                background-color: rgb(240, 240, 240);
+            }
+        }
+        &::after {
+            content: "";
+            position: absolute;
+            top: 45.5px;
+            left: 65px;
+            transform: rotate( -45deg);
+            width: .4rem;
+            height: .4rem;
+            background-color: #fff;
+            border: 1px solid rgba(0, 0, 0, .15);
+            border-bottom: none;
+            border-left: none;
+        }
+    }
+}

@@ -1,0 +1,158 @@
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&display=swap');
+ $opaque: 0.8;
+ .modal-container {
+     -webkit-text-size-adjust: 100%;
+     font-family: "proxima-nova", Arial, sans-serif;
+     font-size: 1rem;
+     line-height: 1.5;
+     -webkit-tap-highlight-color: transparent;
+     box-sizing: border-box;
+     padding: 0px;
+     width: 25rem;
+     margin: auto;
+     margin-top: 30px;
+     border-radius: 10px;
+     padding-top: 1.5rem;
+     padding-bottom: 1.5rem;
+     background-color: #fff;
+     position: relative;
+     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.33);
+     transition: all 0.3s ease;
+ }
+ 
+ .modal-content {
+     -webkit-text-size-adjust: 100%;
+     font-family: "proxima-nova", Arial, sans-serif;
+     font-size: 1rem;
+     line-height: 1.5;
+     -webkit-tap-highlight-color: transparent;
+     box-sizing: border-box;
+     padding: 0;
+     max-width: 22.75rem;
+     margin: 0 auto;
+ }
+ 
+ .social-login-buttons {
+     -webkit-text-size-adjust: 100%;
+     font-family: "proxima-nova", Arial, sans-serif;
+     font-size: 1rem;
+     line-height: 1.5;
+     -webkit-tap-highlight-color: transparent;
+     background-color: #fff;
+     margin-left: 25px;
+     // display: flex;
+     // flex-direction: column;
+ }
+ 
+ @mixin socialLoginBtn {
+     // -webkit-text-size-adjust: 100%;
+     // -webkit-tap-highlight-color: transparent;
+     font-family: "proxima-nova", Arial, sans-serif;
+     font-size: 14px;
+     box-sizing: border-box;
+     margin: 5px;
+     margin-bottom: 1.25rem;
+     border-radius: 22px;
+     align-items: center;
+     cursor: pointer;
+     text-decoration: none;
+     box-sizing: border-box;
+     border-radius: 30px;
+     padding-left: 150px;
+     background-color: red;
+     margin-bottom: 12px;
+     color: #fff;
+ }
+ 
+ #naukri-btn {
+     @include socialLoginBtn();
+     background-color: #fff;
+     border: 1px solid #016cb7;
+     color: #016cb7;
+     opacity: $opaque;
+ }
+ 
+ #fb-btn {
+     @include socialLoginBtn();
+     background-color: #fff;
+     border: 1px solid #016cb7;
+     background-color: #0d2158;
+     opacity: $opaque;
+ }
+ 
+ #google-btn {
+     @include socialLoginBtn();
+     background-color: #fff;
+     border: 1px solid #016cb7;
+     background-color: rgb(221, 26, 26);
+     opacity: $opaque;
+ }
+ 
+ #linkedin-btn {
+     @include socialLoginBtn();
+     background-color: #fff;
+     border: 1px solid #016cb7;
+     background-color: #005796;
+     opacity: $opaque;
+ }
+ 
+ img {
+     position: absolute;
+     margin-left: -60px;
+ }
+ 
+ .icon p {
+     width: 300px;
+     margin-left: -70px;
+ }
+ 
+ .modal-default-button {
+     position: relative;
+     left: 425px;
+     bottom: 350px;
+     cursor: pointer;
+ }
+ 
+ .modal-heading {
+     margin: 0px;
+     margin-left: 30px;
+     margin-top: 10px;
+     font-weight: bold;
+ }
+ 
+ .subheading {
+     font-size: 14px;
+     margin: 0px;
+     margin-left: 30px;
+     margin-bottom: 10px;
+ }
+ 
+ .modal-footer {
+     font-family: 'Open Sans', sans-serif;
+     font-size: 11px;
+     font-weight: lighter;
+     margin-left: 30px;
+ }
+ 
+ .checkbox {
+     display: inline-block;
+ }
+ 
+ .last-line {
+     margin-left: 30px;
+ }
+ 
+ .footer-label {
+     text-decoration: none;
+     margin-left: 10px;
+ }
+ 
+ .inner-label {
+     margin-left: 32px;
+ }
+ 
+ .footer-anchor {
+     text-decoration: none;
+     font-style: normal;
+     color: #5670fb;
+ }
